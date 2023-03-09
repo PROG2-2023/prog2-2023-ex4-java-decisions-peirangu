@@ -29,6 +29,7 @@ public class Main
         int adultPassengers = scanner.nextInt();
         FlightBooking flightBooking = new FlightBooking(passengerFullName,depart,returnDate,childrenPassengers,adultPassengers);
         scanner.nextLine();
+        
         System.out.println("Please choice the BookingClass(1.First;2.Business;3.Economy) NUMBER in STRING form:");
         String bookingClass =scanner.nextLine();
         flightBooking.setBookingClass(bookingClass);
